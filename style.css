@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+body{
+  border-radius: 8px;
+background: #fff
+
+}
+header h2 {
+  color: #333;
+font-family: Inconsolata;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: -1.92px;
+text-transform: uppercase;
+padding-top: 35px;
+padding-left: 75px;
+}
+
+.scare-img{
+  height: 500px;
+  width: 500px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 80px;
+}
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.container-title{
+color:#333
+font-family : monospace;
+font-size: 64px;
+font-weight:700;
+letter-spacing:2.24px;
+width:570px
+padding-bottom:36px
+
+}
+.container-description{
+  color:#4F4F4F;
+font-family: Space Mono;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 0.84px;
+width: 340px;
+padding-bottom: 65px;
+}
+
+.btn{
+  background:#333;
+  width: 216px;
+height: 68px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Space Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.49px;
+text-transform: uppercase;
+}
+
+.foot{
+  color: #bdbdbd;
+text-align: center;
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+padding-bottom: 240px;
+}
+
+.name{
+  color: #BDBDBD;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+text-decoration-line: underline;
+}
